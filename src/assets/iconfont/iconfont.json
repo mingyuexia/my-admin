@@ -1,0 +1,72 @@
+{
+  "id": "4353956",
+  "name": "第二课堂前台",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3370367",
+      "name": "上传",
+      "font_class": "shangchuan",
+      "unicode": "e78c",
+      "unicode_decimal": 59276
+    },
+    {
+      "icon_id": "6664189",
+      "name": "peoples",
+      "font_class": "peoples",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "38447068",
+      "name": "arrow-down-filling",
+      "font_class": "arrow-down-filling",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "38418722",
+      "name": "tel",
+      "font_class": "tel",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "38418720",
+      "name": "site",
+      "font_class": "site",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "38404215",
+      "name": "arrow-right-bold",
+      "font_class": "arrow-right-bold",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "38414154",
+      "name": "bean",
+      "font_class": "bean",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "38414152",
+      "name": "score",
+      "font_class": "score",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "38414151",
+      "name": "score1",
+      "font_class": "score1",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    }
+  ]
+}
