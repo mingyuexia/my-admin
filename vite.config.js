@@ -17,7 +17,9 @@ export default ({ mode }) => {
       VueSetupExtend(),
       visualizer(),
       Components({
-        resolvers: [ElementPlusResolver()]
+        resolvers: [ElementPlusResolver({
+          importStyle: 'sass'
+        })]
       }),
       AutoImport({
         include: [/\.[tj]sx?$/, /\.vue$/, /\.vue\?vue/, /\.md$/],
@@ -26,6 +28,13 @@ export default ({ mode }) => {
         dts: './auto-imports.d.ts'
       })
     ],
+    css:{
+      preprocessorOptions:{
+        scss:{
+          additionalData:'@use "@/styles/element-variables.scss";'
+        }
+      }
+    },
     server: {
       host: '0.0.0.0', // 监听所有IP
       port: 8888, // 自定义的端口号
